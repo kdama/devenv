@@ -3,7 +3,8 @@ FROM alpine:latest
 MAINTAINER Kai Kodama
 
 RUN apk --no-cache add \
-  bash
+  bash \
+  nodejs
 
 WORKDIR "/usr/src/app"
 
