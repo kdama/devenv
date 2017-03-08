@@ -15,5 +15,3 @@ RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh
 RUN touch ~/.zshrc
 RUN curl -o- -L https://yarnpkg.com/install.sh | zsh
 RUN export PATH="$HOME/.yarn/bin:$PATH"
-
-WORKDIR "/work"
